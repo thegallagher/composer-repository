@@ -1,0 +1,17 @@
+{
+    "name": "thegallagher/composer-packages",
+    "require-dev": {
+        "composer/satis": "dev-master"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "David Gallagher",
+            "email": "david@thegallagher.net"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+
+    }
+}

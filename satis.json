@@ -1,0 +1,9 @@
+{
+    "name": "Development Composer Repository",
+    "homepage": "https://github.com/thegallagher/composer-repository",
+    "repositories": [
+        { "type": "vcs", "url": "https://github.com/thegallagher/cakephp-app-template-dokku" }
+    ],
+    "require-all": true,
+    "output-dir": "."
+}
