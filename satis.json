@@ -3,7 +3,8 @@
     "homepage": "http://thegallagher.github.io/composer-repository",
     "repositories": [
         { "type": "vcs", "url": "https://github.com/thegallagher/cakephp-app-template-dokku" },
-        { "type": "vcs", "url": "https://github.com/thegallagher/cakephp-cart-plugin" }
+        { "type": "vcs", "url": "https://github.com/thegallagher/cakephp-cart-plugin" },
+        { "type": "vcs", "url": "https://github.com/awecms/awecms" }
     ],
     "require-all": true,
     "output-dir": "."
