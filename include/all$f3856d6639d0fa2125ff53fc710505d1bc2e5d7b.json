@@ -1,0 +1,415 @@
+{
+    "packages": {
+        "awecms/awecms": {
+            "dev-master": {
+                "name": "awecms/awecms",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/awecms/awecms.git",
+                    "reference": "151ed1074f9c6f43492a285b4c7da07662c13bea"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/awecms/awecms/zipball/151ed1074f9c6f43492a285b4c7da07662c13bea",
+                    "reference": "151ed1074f9c6f43492a285b4c7da07662c13bea",
+                    "shasum": ""
+                },
+                "require": {
+                    "cakedc/utils": "~1.4.3",
+                    "composer/installers": "*"
+                },
+                "time": "2014-07-10 10:39:57",
+                "type": "cakephp-plugin",
+                "authors": [
+                    {
+                        "name": "David Gallagher",
+                        "email": "david@thegallagher.net"
+                    }
+                ],
+                "description": "AweCMS: CakePHP CMS",
+                "support": {
+                    "source": "https://github.com/awecms/awecms/tree/master",
+                    "issues": "https://github.com/awecms/awecms/issues"
+                }
+            }
+        },
+        "burzum/cart": {
+            "dev-develop": {
+                "name": "burzum/cart",
+                "version": "dev-develop",
+                "version_normalized": "dev-develop",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/thegallagher/cakephp-cart-plugin.git",
+                    "reference": "5c05c6e0e018aa7669472d3e1bc04f185ff030a5"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/thegallagher/cakephp-cart-plugin/zipball/5c05c6e0e018aa7669472d3e1bc04f185ff030a5",
+                    "reference": "5c05c6e0e018aa7669472d3e1bc04f185ff030a5",
+                    "shasum": ""
+                },
+                "require": {
+                    "cakedc/migrations": "~2.3.0",
+                    "php": ">=5.3.2"
+                },
+                "suggest": {
+                    "cakedc/search": "Required for the search filters, implements the PRG pattern",
+                    "omnipay/omnipay": "Payment processing library with lots of adapters for most, if not all popular payment providers."
+                },
+                "time": "2014-06-12 23:14:43",
+                "type": "cakephp-plugin",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Florian Krämer",
+                        "homepage": "http://florian-kraemer.net"
+                    }
+                ],
+                "description": "Shopping Cart Plugin for CakePHP that will work with any table and make it's records buyable.",
+                "homepage": "http://github.com/burzum/Cart",
+                "keywords": [
+                    "cart",
+                    "e-commerce",
+                    "shopping"
+                ],
+                "support": {
+                    "source": "https://github.com/thegallagher/cakephp-cart-plugin/tree/develop"
+                }
+            }
+        },
+        "thegallagher/cakephp-app-template-dokku": {
+            "1.1.0": {
+                "name": "thegallagher/cakephp-app-template-dokku",
+                "version": "1.1.0",
+                "version_normalized": "1.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/thegallagher/cakephp-app-template-dokku.git",
+                    "reference": "995d43635de1192a194bb28e0124377817c13b07"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/thegallagher/cakephp-app-template-dokku/zipball/995d43635de1192a194bb28e0124377817c13b07",
+                    "reference": "995d43635de1192a194bb28e0124377817c13b07",
+                    "shasum": ""
+                },
+                "require": {
+                    "cakephp/cakephp": "2.4.0",
+                    "composer/installers": "~1.0",
+                    "jippi/cakephp-crud": "3.*",
+                    "php": ">=5.4"
+                },
+                "require-dev": {
+                    "cakephp/debug_kit": "2.2.*"
+                },
+                "time": "2013-09-09 07:53:39",
+                "type": "project",
+                "license": [
+                    "MIT"
+                ],
+                "description": "An empty CakePHP 2.4 application",
+                "homepage": "http://cakephp.org",
+                "support": {
+                    "source": "https://github.com/thegallagher/cakephp-app-template-dokku/tree/1.1.0"
+                }
+            },
+            "1.2.0": {
+                "name": "thegallagher/cakephp-app-template-dokku",
+                "version": "1.2.0",
+                "version_normalized": "1.2.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/thegallagher/cakephp-app-template-dokku.git",
+                    "reference": "4809e3acf60ebdb3a52388fa43a0d64475707b98"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/thegallagher/cakephp-app-template-dokku/zipball/4809e3acf60ebdb3a52388fa43a0d64475707b98",
+                    "reference": "4809e3acf60ebdb3a52388fa43a0d64475707b98",
+                    "shasum": ""
+                },
+                "require": {
+                    "cakephp/cakephp": "2.4.2",
+                    "composer/installers": "~1.0",
+                    "friendsofcake/crud": "3.*",
+                    "php": ">=5.4"
+                },
+                "require-dev": {
+                    "cakephp/debug_kit": "2.2.*"
+                },
+                "time": "2013-11-21 13:24:13",
+                "type": "project",
+                "license": [
+                    "MIT"
+                ],
+                "description": "An empty CakePHP 2.4 application",
+                "homepage": "http://cakephp.org",
+                "support": {
+                    "source": "https://github.com/thegallagher/cakephp-app-template-dokku/tree/1.3.0"
+                }
+            },
+            "1.3.0": {
+                "name": "thegallagher/cakephp-app-template-dokku",
+                "version": "1.3.0",
+                "version_normalized": "1.3.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/thegallagher/cakephp-app-template-dokku.git",
+                    "reference": "4809e3acf60ebdb3a52388fa43a0d64475707b98"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/thegallagher/cakephp-app-template-dokku/zipball/4809e3acf60ebdb3a52388fa43a0d64475707b98",
+                    "reference": "4809e3acf60ebdb3a52388fa43a0d64475707b98",
+                    "shasum": ""
+                },
+                "require": {
+                    "cakephp/cakephp": "2.4.2",
+                    "composer/installers": "~1.0",
+                    "friendsofcake/crud": "3.*",
+                    "php": ">=5.4"
+                },
+                "require-dev": {
+                    "cakephp/debug_kit": "2.2.*"
+                },
+                "time": "2013-11-21 13:24:13",
+                "type": "project",
+                "license": [
+                    "MIT"
+                ],
+                "description": "An empty CakePHP 2.4 application",
+                "homepage": "http://cakephp.org",
+                "support": {
+                    "source": "https://github.com/thegallagher/cakephp-app-template-dokku/tree/1.3.0"
+                }
+            },
+            "1.4.0": {
+                "name": "thegallagher/cakephp-app-template-dokku",
+                "version": "1.4.0",
+                "version_normalized": "1.4.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/thegallagher/cakephp-app-template-dokku.git",
+                    "reference": "917dee44ebd1a7169333879c6fd58eabfd422ced"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/thegallagher/cakephp-app-template-dokku/zipball/917dee44ebd1a7169333879c6fd58eabfd422ced",
+                    "reference": "917dee44ebd1a7169333879c6fd58eabfd422ced",
+                    "shasum": ""
+                },
+                "require": {
+                    "ad7six/dsn": "0.1.*",
+                    "composer/installers": "~1.0",
+                    "friendsofcake/crud": "3.*",
+                    "josegonzalez/dotenv": "0.1.*",
+                    "pear-pear.cakephp.org/cakephp": "2.4.*",
+                    "php": ">=5.4"
+                },
+                "require-dev": {
+                    "cakephp/debug_kit": "2.2.*"
+                },
+                "time": "2014-02-12 16:10:32",
+                "type": "project",
+                "extra": {
+                    "heroku": {
+                        "document-root": "app/webroot",
+                        "index-document": "index.php"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "An empty CakePHP 2.4 application",
+                "homepage": "http://cakephp.org",
+                "support": {
+                    "source": "https://github.com/thegallagher/cakephp-app-template-dokku/tree/1.4.0"
+                }
+            },
+            "dev-master": {
+                "name": "thegallagher/cakephp-app-template-dokku",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/thegallagher/cakephp-app-template-dokku.git",
+                    "reference": "a7458d5eeb9a170b4d0b894879b977653b797dd2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/thegallagher/cakephp-app-template-dokku/zipball/a7458d5eeb9a170b4d0b894879b977653b797dd2",
+                    "reference": "a7458d5eeb9a170b4d0b894879b977653b797dd2",
+                    "shasum": ""
+                },
+                "require": {
+                    "ad7six/dsn": "0.3.*",
+                    "cakephp/cakephp": "2.5.*",
+                    "composer/installers": "~1.0",
+                    "friendsofcake/crud": "3.*",
+                    "josegonzalez/dotenv": "0.1.*",
+                    "php": ">=5.4"
+                },
+                "require-dev": {
+                    "cakephp/debug_kit": "2.2.*"
+                },
+                "time": "2014-06-13 07:06:13",
+                "type": "project",
+                "extra": {
+                    "heroku": {
+                        "framework": "cakephp2",
+                        "document-root": "webroot",
+                        "index-document": "index.php",
+                        "compile": [
+                            "mkdir tmp",
+                            "chmod -R 0777 tmp"
+                        ]
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "An empty CakePHP 2.5 application",
+                "homepage": "http://cakephp.org",
+                "support": {
+                    "source": "https://github.com/thegallagher/cakephp-app-template-dokku/tree/master"
+                }
+            },
+            "dev-cake3": {
+                "name": "thegallagher/cakephp-app-template-dokku",
+                "version": "dev-cake3",
+                "version_normalized": "dev-cake3",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/thegallagher/cakephp-app-template-dokku.git",
+                    "reference": "2debb6ba7c6e77659462dfd0a3e00995d3f164d1"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/thegallagher/cakephp-app-template-dokku/zipball/2debb6ba7c6e77659462dfd0a3e00995d3f164d1",
+                    "reference": "2debb6ba7c6e77659462dfd0a3e00995d3f164d1",
+                    "shasum": ""
+                },
+                "require": {
+                    "ad7six/dsn": "0.2.*",
+                    "cakephp/cakephp": "3.0.*-dev",
+                    "josegonzalez/dotenv": "0.1.*",
+                    "php": ">=5.4"
+                },
+                "require-dev": {
+                    "d11wtq/boris": "1.0.*"
+                },
+                "suggest": {
+                    "phpunit/phpunit": "Allows automated tests to be run without system-wide install."
+                },
+                "time": "2014-03-15 15:13:50",
+                "type": "project",
+                "autoload": {
+                    "psr-4": {
+                        "App\\": "App",
+                        "App\\Test\\": "Test",
+                        "": "./Plugin"
+                    }
+                },
+                "scripts": {
+                    "post-install-cmd": [
+                        "App\\Console\\Installer::postInstall"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "An empty 12 factor CakePHP 3.x application",
+                "homepage": "http://cakephp.org",
+                "support": {
+                    "source": "https://github.com/thegallagher/cakephp-app-template-dokku/tree/cake3"
+                }
+            },
+            "dev-fix-tests": {
+                "name": "thegallagher/cakephp-app-template-dokku",
+                "version": "dev-fix-tests",
+                "version_normalized": "dev-fix-tests",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/thegallagher/cakephp-app-template-dokku.git",
+                    "reference": "0753771888c921901e3f224d17e4d6fd5e44cc97"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/thegallagher/cakephp-app-template-dokku/zipball/0753771888c921901e3f224d17e4d6fd5e44cc97",
+                    "reference": "0753771888c921901e3f224d17e4d6fd5e44cc97",
+                    "shasum": ""
+                },
+                "require": {
+                    "ad7six/dsn": "0.3.*",
+                    "composer/installers": "~1.0",
+                    "friendsofcake/crud": "3.*",
+                    "josegonzalez/dotenv": "0.1.*",
+                    "pear-pear.cakephp.org/cakephp": "2.4.*",
+                    "php": ">=5.4"
+                },
+                "require-dev": {
+                    "cakephp/debug_kit": "2.2.*"
+                },
+                "time": "2014-05-20 03:08:54",
+                "type": "project",
+                "extra": {
+                    "heroku": {
+                        "document-root": "webroot",
+                        "index-document": "index.php"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "An empty CakePHP 2.4 application",
+                "homepage": "http://cakephp.org",
+                "support": {
+                    "source": "https://github.com/thegallagher/cakephp-app-template-dokku/tree/fix-tests"
+                }
+            }
+        },
+        "thegallagher/omnipay-paypal-fetch": {
+            "dev-master": {
+                "name": "thegallagher/omnipay-paypal-fetch",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/thegallagher/omnipay-paypal-fetch.git",
+                    "reference": "a414ad4ed0767e6ee6a2d18150b562e158d07d93"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/thegallagher/omnipay-paypal-fetch/zipball/a414ad4ed0767e6ee6a2d18150b562e158d07d93",
+                    "reference": "a414ad4ed0767e6ee6a2d18150b562e158d07d93",
+                    "shasum": ""
+                },
+                "time": "2014-08-06 11:10:40",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "TheGallagher\\Omnipay\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "David Gallagher",
+                        "email": "david@thegallagher.net"
+                    }
+                ],
+                "support": {
+                    "source": "https://github.com/thegallagher/omnipay-paypal-fetch/tree/master",
+                    "issues": "https://github.com/thegallagher/omnipay-paypal-fetch/issues"
+                }
+            }
+        }
+    }
+}
